@@ -1,0 +1,754 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		39185C272B0CD16800FF19B4 /* ChatViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39185C262B0CD16800FF19B4 /* ChatViewModel.swift */; };
+		39185C2B2B0D144400FF19B4 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39185C2A2B0D144400FF19B4 /* SignInView.swift */; };
+		39185C2D2B0D280B00FF19B4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39185C2C2B0D280B00FF19B4 /* ContentView.swift */; };
+		39185C322B0D2C1800FF19B4 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 39185C312B0D2C1800FF19B4 /* FirebaseAuth */; };
+		39185C342B0D2C1800FF19B4 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 39185C332B0D2C1800FF19B4 /* FirebaseFirestore */; };
+		39185C362B0D2C1800FF19B4 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 39185C352B0D2C1800FF19B4 /* FirebaseFirestoreSwift */; };
+		39185C382B0D2C1800FF19B4 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 39185C372B0D2C1800FF19B4 /* FirebaseStorage */; };
+		39185C3B2B0D2D8300FF19B4 /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39185C3A2B0D2D8300FF19B4 /* DatabaseManager.swift */; };
+		39185C3D2B0D2D9700FF19B4 /* AuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39185C3C2B0D2D9700FF19B4 /* AuthManager.swift */; };
+		39185C402B0D308B00FF19B4 /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = 39185C3F2B0D308B00FF19B4 /* GoogleSignIn */; };
+		39185C422B0D308B00FF19B4 /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 39185C412B0D308B00FF19B4 /* GoogleSignInSwift */; };
+		39185C442B0D33D800FF19B4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 39185C432B0D33D700FF19B4 /* GoogleService-Info.plist */; };
+		39D128FC2B0EA02C00A5077F /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 39D128FB2B0EA02C00A5077F /* SDWebImageSwiftUI */; };
+		39DC039E2B0BE09800090BF8 /* FemriseChatApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39DC039D2B0BE09800090BF8 /* FemriseChatApp.swift */; };
+		39DC03A22B0BE09A00090BF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39DC03A12B0BE09A00090BF8 /* Assets.xcassets */; };
+		39DC03A52B0BE09A00090BF8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39DC03A42B0BE09A00090BF8 /* Preview Assets.xcassets */; };
+		39DC03AF2B0BE09A00090BF8 /* FemriseChatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39DC03AE2B0BE09A00090BF8 /* FemriseChatTests.swift */; };
+		39DC03B92B0BE09A00090BF8 /* FemriseChatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39DC03B82B0BE09A00090BF8 /* FemriseChatUITests.swift */; };
+		39DC03BB2B0BE09A00090BF8 /* FemriseChatUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39DC03BA2B0BE09A00090BF8 /* FemriseChatUITestsLaunchTests.swift */; };
+		39DC03C82B0BE13800090BF8 /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39DC03C72B0BE13800090BF8 /* ChatView.swift */; };
+		39DC03CA2B0BE15800090BF8 /* MessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39DC03C92B0BE15800090BF8 /* MessageView.swift */; };
+		39DC03CD2B0CA01000090BF8 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39DC03CC2B0CA01000090BF8 /* Message.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		39DC03AB2B0BE09A00090BF8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 39DC03922B0BE09800090BF8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 39DC03992B0BE09800090BF8;
+			remoteInfo = FemriseChat;
+		};
+		39DC03B52B0BE09A00090BF8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 39DC03922B0BE09800090BF8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 39DC03992B0BE09800090BF8;
+			remoteInfo = FemriseChat;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		39185C262B0CD16800FF19B4 /* ChatViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewModel.swift; sourceTree = "<group>"; };
+		39185C2A2B0D144400FF19B4 /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		39185C2C2B0D280B00FF19B4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		39185C3A2B0D2D8300FF19B4 /* DatabaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
+		39185C3C2B0D2D9700FF19B4 /* AuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthManager.swift; sourceTree = "<group>"; };
+		39185C432B0D33D700FF19B4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		39185C452B0D348600FF19B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		39DC039A2B0BE09800090BF8 /* FemriseChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FemriseChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		39DC039D2B0BE09800090BF8 /* FemriseChatApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FemriseChatApp.swift; sourceTree = "<group>"; };
+		39DC03A12B0BE09A00090BF8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		39DC03A42B0BE09A00090BF8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		39DC03AA2B0BE09A00090BF8 /* FemriseChatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FemriseChatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		39DC03AE2B0BE09A00090BF8 /* FemriseChatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FemriseChatTests.swift; sourceTree = "<group>"; };
+		39DC03B42B0BE09A00090BF8 /* FemriseChatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FemriseChatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		39DC03B82B0BE09A00090BF8 /* FemriseChatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FemriseChatUITests.swift; sourceTree = "<group>"; };
+		39DC03BA2B0BE09A00090BF8 /* FemriseChatUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FemriseChatUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		39DC03C72B0BE13800090BF8 /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
+		39DC03C92B0BE15800090BF8 /* MessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageView.swift; sourceTree = "<group>"; };
+		39DC03CC2B0CA01000090BF8 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		39DC03972B0BE09800090BF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39D128FC2B0EA02C00A5077F /* SDWebImageSwiftUI in Frameworks */,
+				39185C402B0D308B00FF19B4 /* GoogleSignIn in Frameworks */,
+				39185C322B0D2C1800FF19B4 /* FirebaseAuth in Frameworks */,
+				39185C382B0D2C1800FF19B4 /* FirebaseStorage in Frameworks */,
+				39185C422B0D308B00FF19B4 /* GoogleSignInSwift in Frameworks */,
+				39185C342B0D2C1800FF19B4 /* FirebaseFirestore in Frameworks */,
+				39185C362B0D2C1800FF19B4 /* FirebaseFirestoreSwift in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39DC03A72B0BE09A00090BF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39DC03B12B0BE09A00090BF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		39185C292B0CD1A500FF19B4 /* ChatView */ = {
+			isa = PBXGroup;
+			children = (
+				39DC03C72B0BE13800090BF8 /* ChatView.swift */,
+				39185C262B0CD16800FF19B4 /* ChatViewModel.swift */,
+			);
+			path = ChatView;
+			sourceTree = "<group>";
+		};
+		39185C392B0D2D5800FF19B4 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				39185C3A2B0D2D8300FF19B4 /* DatabaseManager.swift */,
+				39185C3C2B0D2D9700FF19B4 /* AuthManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		39DC03912B0BE09800090BF8 = {
+			isa = PBXGroup;
+			children = (
+				39DC039C2B0BE09800090BF8 /* FemriseChat */,
+				39DC03AD2B0BE09A00090BF8 /* FemriseChatTests */,
+				39DC03B72B0BE09A00090BF8 /* FemriseChatUITests */,
+				39DC039B2B0BE09800090BF8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		39DC039B2B0BE09800090BF8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				39DC039A2B0BE09800090BF8 /* FemriseChat.app */,
+				39DC03AA2B0BE09A00090BF8 /* FemriseChatTests.xctest */,
+				39DC03B42B0BE09A00090BF8 /* FemriseChatUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		39DC039C2B0BE09800090BF8 /* FemriseChat */ = {
+			isa = PBXGroup;
+			children = (
+				39185C452B0D348600FF19B4 /* Info.plist */,
+				39185C432B0D33D700FF19B4 /* GoogleService-Info.plist */,
+				39DC039D2B0BE09800090BF8 /* FemriseChatApp.swift */,
+				39185C392B0D2D5800FF19B4 /* Managers */,
+				39185C292B0CD1A500FF19B4 /* ChatView */,
+				39DC03CE2B0CA02C00090BF8 /* Views */,
+				39DC03CB2B0C9F8400090BF8 /* Models */,
+				39DC03A12B0BE09A00090BF8 /* Assets.xcassets */,
+				39DC03A32B0BE09A00090BF8 /* Preview Content */,
+			);
+			path = FemriseChat;
+			sourceTree = "<group>";
+		};
+		39DC03A32B0BE09A00090BF8 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				39DC03A42B0BE09A00090BF8 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		39DC03AD2B0BE09A00090BF8 /* FemriseChatTests */ = {
+			isa = PBXGroup;
+			children = (
+				39DC03AE2B0BE09A00090BF8 /* FemriseChatTests.swift */,
+			);
+			path = FemriseChatTests;
+			sourceTree = "<group>";
+		};
+		39DC03B72B0BE09A00090BF8 /* FemriseChatUITests */ = {
+			isa = PBXGroup;
+			children = (
+				39DC03B82B0BE09A00090BF8 /* FemriseChatUITests.swift */,
+				39DC03BA2B0BE09A00090BF8 /* FemriseChatUITestsLaunchTests.swift */,
+			);
+			path = FemriseChatUITests;
+			sourceTree = "<group>";
+		};
+		39DC03CB2B0C9F8400090BF8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				39DC03CC2B0CA01000090BF8 /* Message.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		39DC03CE2B0CA02C00090BF8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				39DC03C92B0BE15800090BF8 /* MessageView.swift */,
+				39185C2A2B0D144400FF19B4 /* SignInView.swift */,
+				39185C2C2B0D280B00FF19B4 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		39DC03992B0BE09800090BF8 /* FemriseChat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39DC03BE2B0BE09A00090BF8 /* Build configuration list for PBXNativeTarget "FemriseChat" */;
+			buildPhases = (
+				39DC03962B0BE09800090BF8 /* Sources */,
+				39DC03972B0BE09800090BF8 /* Frameworks */,
+				39DC03982B0BE09800090BF8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FemriseChat;
+			packageProductDependencies = (
+				39185C312B0D2C1800FF19B4 /* FirebaseAuth */,
+				39185C332B0D2C1800FF19B4 /* FirebaseFirestore */,
+				39185C352B0D2C1800FF19B4 /* FirebaseFirestoreSwift */,
+				39185C372B0D2C1800FF19B4 /* FirebaseStorage */,
+				39185C3F2B0D308B00FF19B4 /* GoogleSignIn */,
+				39185C412B0D308B00FF19B4 /* GoogleSignInSwift */,
+				39D128FB2B0EA02C00A5077F /* SDWebImageSwiftUI */,
+			);
+			productName = FemriseChat;
+			productReference = 39DC039A2B0BE09800090BF8 /* FemriseChat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		39DC03A92B0BE09A00090BF8 /* FemriseChatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39DC03C12B0BE09A00090BF8 /* Build configuration list for PBXNativeTarget "FemriseChatTests" */;
+			buildPhases = (
+				39DC03A62B0BE09A00090BF8 /* Sources */,
+				39DC03A72B0BE09A00090BF8 /* Frameworks */,
+				39DC03A82B0BE09A00090BF8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				39DC03AC2B0BE09A00090BF8 /* PBXTargetDependency */,
+			);
+			name = FemriseChatTests;
+			productName = FemriseChatTests;
+			productReference = 39DC03AA2B0BE09A00090BF8 /* FemriseChatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		39DC03B32B0BE09A00090BF8 /* FemriseChatUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39DC03C42B0BE09A00090BF8 /* Build configuration list for PBXNativeTarget "FemriseChatUITests" */;
+			buildPhases = (
+				39DC03B02B0BE09A00090BF8 /* Sources */,
+				39DC03B12B0BE09A00090BF8 /* Frameworks */,
+				39DC03B22B0BE09A00090BF8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				39DC03B62B0BE09A00090BF8 /* PBXTargetDependency */,
+			);
+			name = FemriseChatUITests;
+			productName = FemriseChatUITests;
+			productReference = 39DC03B42B0BE09A00090BF8 /* FemriseChatUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		39DC03922B0BE09800090BF8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					39DC03992B0BE09800090BF8 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					39DC03A92B0BE09A00090BF8 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 39DC03992B0BE09800090BF8;
+					};
+					39DC03B32B0BE09A00090BF8 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 39DC03992B0BE09800090BF8;
+					};
+				};
+			};
+			buildConfigurationList = 39DC03952B0BE09800090BF8 /* Build configuration list for PBXProject "FemriseChat" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 39DC03912B0BE09800090BF8;
+			packageReferences = (
+				39185C302B0D2C1800FF19B4 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				39185C3E2B0D308B00FF19B4 /* XCRemoteSwiftPackageReference "GoogleSignIN-iOS" */,
+				39D128FA2B0EA02C00A5077F /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+			);
+			productRefGroup = 39DC039B2B0BE09800090BF8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				39DC03992B0BE09800090BF8 /* FemriseChat */,
+				39DC03A92B0BE09A00090BF8 /* FemriseChatTests */,
+				39DC03B32B0BE09A00090BF8 /* FemriseChatUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		39DC03982B0BE09800090BF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39DC03A52B0BE09A00090BF8 /* Preview Assets.xcassets in Resources */,
+				39185C442B0D33D800FF19B4 /* GoogleService-Info.plist in Resources */,
+				39DC03A22B0BE09A00090BF8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39DC03A82B0BE09A00090BF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39DC03B22B0BE09A00090BF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		39DC03962B0BE09800090BF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39185C3B2B0D2D8300FF19B4 /* DatabaseManager.swift in Sources */,
+				39185C3D2B0D2D9700FF19B4 /* AuthManager.swift in Sources */,
+				39DC03CA2B0BE15800090BF8 /* MessageView.swift in Sources */,
+				39185C2B2B0D144400FF19B4 /* SignInView.swift in Sources */,
+				39185C2D2B0D280B00FF19B4 /* ContentView.swift in Sources */,
+				39DC03CD2B0CA01000090BF8 /* Message.swift in Sources */,
+				39DC03C82B0BE13800090BF8 /* ChatView.swift in Sources */,
+				39185C272B0CD16800FF19B4 /* ChatViewModel.swift in Sources */,
+				39DC039E2B0BE09800090BF8 /* FemriseChatApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39DC03A62B0BE09A00090BF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39DC03AF2B0BE09A00090BF8 /* FemriseChatTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39DC03B02B0BE09A00090BF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39DC03BB2B0BE09A00090BF8 /* FemriseChatUITestsLaunchTests.swift in Sources */,
+				39DC03B92B0BE09A00090BF8 /* FemriseChatUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		39DC03AC2B0BE09A00090BF8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 39DC03992B0BE09800090BF8 /* FemriseChat */;
+			targetProxy = 39DC03AB2B0BE09A00090BF8 /* PBXContainerItemProxy */;
+		};
+		39DC03B62B0BE09A00090BF8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 39DC03992B0BE09800090BF8 /* FemriseChat */;
+			targetProxy = 39DC03B52B0BE09A00090BF8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		39DC03BC2B0BE09A00090BF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		39DC03BD2B0BE09A00090BF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		39DC03BF2B0BE09A00090BF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FemriseChat/Preview Content\"";
+				DEVELOPMENT_TEAM = 2WYT7W437Z;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FemriseChat/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fasih.femrise.FemriseChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		39DC03C02B0BE09A00090BF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FemriseChat/Preview Content\"";
+				DEVELOPMENT_TEAM = 2WYT7W437Z;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FemriseChat/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fasih.femrise.FemriseChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		39DC03C22B0BE09A00090BF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2WYT7W437Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fasih.femrise.FemriseChatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FemriseChat.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FemriseChat";
+			};
+			name = Debug;
+		};
+		39DC03C32B0BE09A00090BF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2WYT7W437Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fasih.femrise.FemriseChatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FemriseChat.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FemriseChat";
+			};
+			name = Release;
+		};
+		39DC03C52B0BE09A00090BF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2WYT7W437Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fasih.femrise.FemriseChatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FemriseChat;
+			};
+			name = Debug;
+		};
+		39DC03C62B0BE09A00090BF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2WYT7W437Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fasih.femrise.FemriseChatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FemriseChat;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		39DC03952B0BE09800090BF8 /* Build configuration list for PBXProject "FemriseChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39DC03BC2B0BE09A00090BF8 /* Debug */,
+				39DC03BD2B0BE09A00090BF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39DC03BE2B0BE09A00090BF8 /* Build configuration list for PBXNativeTarget "FemriseChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39DC03BF2B0BE09A00090BF8 /* Debug */,
+				39DC03C02B0BE09A00090BF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39DC03C12B0BE09A00090BF8 /* Build configuration list for PBXNativeTarget "FemriseChatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39DC03C22B0BE09A00090BF8 /* Debug */,
+				39DC03C32B0BE09A00090BF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39DC03C42B0BE09A00090BF8 /* Build configuration list for PBXNativeTarget "FemriseChatUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39DC03C52B0BE09A00090BF8 /* Debug */,
+				39DC03C62B0BE09A00090BF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		39185C302B0D2C1800FF19B4 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.18.0;
+			};
+		};
+		39185C3E2B0D308B00FF19B4 /* XCRemoteSwiftPackageReference "GoogleSignIN-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/GoogleSignIN-iOS";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+		39D128FA2B0EA02C00A5077F /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.2.4;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		39185C312B0D2C1800FF19B4 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 39185C302B0D2C1800FF19B4 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		39185C332B0D2C1800FF19B4 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 39185C302B0D2C1800FF19B4 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		39185C352B0D2C1800FF19B4 /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 39185C302B0D2C1800FF19B4 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+		39185C372B0D2C1800FF19B4 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 39185C302B0D2C1800FF19B4 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+		39185C3F2B0D308B00FF19B4 /* GoogleSignIn */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 39185C3E2B0D308B00FF19B4 /* XCRemoteSwiftPackageReference "GoogleSignIN-iOS" */;
+			productName = GoogleSignIn;
+		};
+		39185C412B0D308B00FF19B4 /* GoogleSignInSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 39185C3E2B0D308B00FF19B4 /* XCRemoteSwiftPackageReference "GoogleSignIN-iOS" */;
+			productName = GoogleSignInSwift;
+		};
+		39D128FB2B0EA02C00A5077F /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 39D128FA2B0EA02C00A5077F /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 39DC03922B0BE09800090BF8 /* Project object */;
+}
